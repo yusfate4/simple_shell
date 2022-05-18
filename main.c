@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * set_data - Initialize data structure
  *
@@ -38,7 +37,6 @@ void set_data(data_shell *datash, char **av)
  * @datash: data structure
  * Return: no return
  */
-
 void free_data(data_shell *datash)
 {
 	unsigned int i;
@@ -58,7 +56,7 @@ void free_data(data_shell *datash)
  * @ac: argument count
  * @av: argument vector
  *
- * Return: 0 on sucess.
+ * Return: 0 on success.
  */
 int main(int ac, char **av)
 {
@@ -73,4 +71,3 @@ int main(int ac, char **av)
 		return (255);
 	return (data.status);
 }
-
